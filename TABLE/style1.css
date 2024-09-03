@@ -1,0 +1,24 @@
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: tomato;
+}
+
+td {
+    text-align: center;
+}
+
+.kuning {
+    background-color: yellow;
+}
+
+.hijau {
+    background-color: green;
+    color: white;
+}
