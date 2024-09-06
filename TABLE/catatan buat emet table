@@ -1,0 +1,41 @@
+CARA CEPAT 1 MENIT MEMBUAT TABEL DI HTML DENGAN MENGGUNAKAN EMMET DI VSCODE
+.
+https://youtu.be/EfsuQHcTFjc?si=LjXC_N3XKJQFBaKH
+
+Untuk membuat tabel HTML dengan cepat di Visual Studio Code (VS Code) menggunakan shortcut, kamu bisa menggunakan fitur Emmet yang sudah terintegrasi di VS Code. Berikut langkah-langkahnya:
+
+Buka file HTML di VS Code.
+
+Ketik snippet Emmet berikut di dalam file HTML:
+
+table>tr*3>td*3
+
+Ini berarti kamu ingin membuat sebuah tabel dengan 3 baris (tr) dan setiap baris memiliki 3 sel (td).
+
+Tekan Tab atau Enter dan Emmet akan secara otomatis mengembangkan snippet tersebut menjadi struktur HTML berikut:
+
+<table>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+Kamu bisa menyesuaikan angka di dalam snippet Emmet sesuai dengan jumlah baris dan kolom yang kamu butuhkan. Misalnya, untuk membuat tabel dengan 4 baris dan 2 kolom, kamu bisa mengetik:
+
+table>tr*4>td*2
+
+Shortcut ini sangat efektif untuk mempercepat penulisan kode HTML dasar.
+
+Semoga Bermanfaat
